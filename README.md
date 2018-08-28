@@ -26,3 +26,20 @@ namespace Example
     }
 }
 ```
+the YandereTag Object is the Object that Handles the tags and rating 
+you can set Raiting from 4 different categories 
+```cs
+YandereRaiting.Safe;
+YandereRaiting.Questionable;
+YandereRaiting.Explicit;
+YandereRaiting.All;
+```
+the Limit Propery is to handle how many element you get from the API and it maximaize at 100 Element
+you need to ceberate the Tag Using _UnderScores_ not **Spaces**
+and to add a new Tag to the list of Tags do
+
+```cs
+YandereTag Config = new YandereTag();
+Config.Tags.Add("Tage_Name");
+```
+
