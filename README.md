@@ -42,4 +42,4 @@ and to add a new Tag to the list of Tags do
 YandereTag Config = new YandereTag();
 Config.Tags.Add("Tage_Name");
 ```
-To Download it from nuget [Click Here](https://www.nuget.org/packages/Yande.re/0.1.0)
+To Download it from nuget [Click Here](https://www.nuget.org/packages/Yande.re/)
