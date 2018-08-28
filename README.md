@@ -29,13 +29,13 @@ namespace Example
 the YandereTag Object is the Object that Handles the tags and rating 
 you can set Raiting from 4 different categories 
 ```cs
-YandereRaiting.Safe;
-YandereRaiting.Questionable;
-YandereRaiting.Explicit;
-YandereRaiting.All;
+YandereRating.Safe;
+YandereRating.Questionable;
+YandereRating.Explicit;
+YandereRating.All;
 ```
-the Limit Propery is to handle how many element you get from the API and it maximaize at 100 Element
-you need to ceberate the Tag Using __UnderScores__ not **Spaces**
+the Limit Propery is to handle how many elements you get from the API and it maximize at 100 Element
+you need to separate the Tag Using __UnderScores__ not **Spaces**
 and to add a new Tag to the list of Tags do
 
 ```cs
