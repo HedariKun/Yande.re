@@ -35,7 +35,7 @@ YandereRaiting.Explicit;
 YandereRaiting.All;
 ```
 the Limit Propery is to handle how many element you get from the API and it maximaize at 100 Element
-you need to ceberate the Tag Using _UnderScores_ not **Spaces**
+you need to ceberate the Tag Using __UnderScores__ not **Spaces**
 and to add a new Tag to the list of Tags do
 
 ```cs
